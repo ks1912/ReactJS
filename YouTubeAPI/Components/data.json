@@ -1,0 +1,352 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "qMUVvRcwiGXz4MvWoZSnlsG4LZ4",
+  "nextPageToken": "CAoQAA",
+  "regionCode": "IN",
+  "pageInfo": {
+    "totalResults": 1154,
+    "resultsPerPage": 10
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "l_lPmIAJSE1rwjlfEsR6XmcL_LI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9Jvgh6txd1k"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-11T17:02:53Z",
+        "channelId": "UCXgGY0wkgOzynnHvSEVmE3A",
+        "title": "Saturday live  (after a while)",
+        "description": "Hey there everyone, welcome to Saturday live again. It was a busy ,month but finally here we are. Live again !",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9Jvgh6txd1k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9Jvgh6txd1k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9Jvgh6txd1k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Hitesh Choudhary",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-11T17:02:53Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "38GnTGez8CJVzAmillegjT84gaw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nFQ22Wb6Qe8"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-01T11:30:25Z",
+        "channelId": "UCXgGY0wkgOzynnHvSEVmE3A",
+        "title": "Front end developer Roadmap from 0",
+        "description": "As a new developer, it can be difficult to find out a roadmap to become a front-end developer. With so much advice and views on this subject, it's easy to get lost ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nFQ22Wb6Qe8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nFQ22Wb6Qe8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nFQ22Wb6Qe8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Hitesh Choudhary",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-01T11:30:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OHdgolwE9Y4BegpdK6TjWMDENkk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DlYlFpGEghQ"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-25T11:27:29Z",
+        "channelId": "UCXgGY0wkgOzynnHvSEVmE3A",
+        "title": "Quirky Behaviour of javascript",
+        "description": "Javascript sometimes behaves a little odd. Something that catches people off guard. This is not a language flaw, this is by design of javascript. Knowing such ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DlYlFpGEghQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DlYlFpGEghQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DlYlFpGEghQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Hitesh Choudhary",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-25T11:27:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "f9jPgCAtRosokyQMNKVtwN3X7oI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "FURpxgVmz3c"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-24T16:12:44Z",
+        "channelId": "UCXgGY0wkgOzynnHvSEVmE3A",
+        "title": "Why youtube removed dislike button | real reason",
+        "description": "Recently youtube removed the dislike button from the platform. This update is slowly rolling out to all creators. As a creator here are my thoughts on why youtube ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FURpxgVmz3c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FURpxgVmz3c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FURpxgVmz3c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Hitesh Choudhary",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-24T16:12:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "poce21a7zfg0xaJTexH7Kuw0W5I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hkRqIb7DwXw"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-20T16:09:21Z",
+        "channelId": "UCXgGY0wkgOzynnHvSEVmE3A",
+        "title": "Saturday live for programmers",
+        "description": "Trying to answer your questions (If I can)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hkRqIb7DwXw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hkRqIb7DwXw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hkRqIb7DwXw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Hitesh Choudhary",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-20T16:09:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wMGflFGrihShKS7pf4gIiA2WTlw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "up9Xc10ZCbY"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-14T13:41:58Z",
+        "channelId": "UCXgGY0wkgOzynnHvSEVmE3A",
+        "title": "Top 5 programming languages for 2022",
+        "description": "Welcome to the top 5 programming languages for 2022. Here is a fresh take on programming languages for 2022, other than python and javascript. There is a ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/up9Xc10ZCbY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/up9Xc10ZCbY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/up9Xc10ZCbY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Hitesh Choudhary",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-14T13:41:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bcGo8SFFIx0pjaEUyJhcdNXiNVo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HqSkMsdNn30"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-13T17:00:18Z",
+        "channelId": "UCXgGY0wkgOzynnHvSEVmE3A",
+        "title": "Saturday Live for programmers",
+        "description": "https://pro.learncodeonline.in/learn.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HqSkMsdNn30/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HqSkMsdNn30/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HqSkMsdNn30/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Hitesh Choudhary",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-13T17:00:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "EjBqg8C8UG6JxXjVMJDFUJ_S-mQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gpWMK6la0kU"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-11T12:30:17Z",
+        "channelId": "UCXgGY0wkgOzynnHvSEVmE3A",
+        "title": "NPM packages are getting hacked",
+        "description": "Npm packages are getting hacked. Report of such incidents are not a rare standalone case anymore. Attackers are attempting more and more. Recently ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gpWMK6la0kU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gpWMK6la0kU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gpWMK6la0kU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Hitesh Choudhary",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-11T12:30:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "MI4yMhVKb7SIp7zHiwiUiSGu39o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "89qWpdoWSeM"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-10T10:56:04Z",
+        "channelId": "UCXgGY0wkgOzynnHvSEVmE3A",
+        "title": "2 new React Frameworks are here",
+        "description": "React Frameworks are dropping in like anything. After big success to NextJS, other folks wants to share the pie of this success. First in this line is Hydrogen by ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/89qWpdoWSeM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/89qWpdoWSeM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/89qWpdoWSeM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Hitesh Choudhary",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-10T10:56:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "UVAc36SP14gYGWxfZJhf9jNTIkY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "0cSVuySEB0A"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-09T10:47:03Z",
+        "channelId": "UCXgGY0wkgOzynnHvSEVmE3A",
+        "title": "React Router v6 in depth guide",
+        "description": "Welcome to react-router version 6 in-depth guide. In this video, we will learn about react-router v6 but creating a fresh project. I assume that you have no prior ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0cSVuySEB0A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0cSVuySEB0A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0cSVuySEB0A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Hitesh Choudhary",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-09T10:47:03Z"
+      }
+    }
+  ]
+}
