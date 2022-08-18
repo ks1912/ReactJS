@@ -1,0 +1,25 @@
+{
+  "name": "reactjs",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ks1912/ReactJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ks1912/ReactJS/issues"
+  },
+  "homepage": "https://github.com/ks1912/ReactJS#readme",
+  "dependencies": {
+    "export-to-csv": "^0.2.1",
+    "faker": "^6.6.6",
+    "fs": "^0.0.1-security"
+  }
+}

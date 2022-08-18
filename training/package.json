@@ -1,0 +1,15 @@
+{
+  "name": "reacttraining",
+  "version": "1.0.0",
+  "description": "learn react with kunal singh (ks1912)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ks1912"
+  },
+  "author": "Kunal Singh",
+  "license": "ISC"
+}
