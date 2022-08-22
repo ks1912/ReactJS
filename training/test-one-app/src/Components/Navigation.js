@@ -1,5 +1,6 @@
 // Import React Files
 import React from "react";
+import "../Style/navigation.css";
 
 const Navigation = () => {
   const navDefination = () => {
@@ -7,13 +8,17 @@ const Navigation = () => {
       <div>
         <ul className="nav nav-pills">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#">
+            <a
+              className="nav-link text-decoration-underline fs-6 text-secondary"
+              aria-current="page"
+              href="#"
+            >
               Active
             </a>
           </li>
           <li className="nav-item dropdown">
             <a
-              className="nav-link dropdown-toggle"
+              className="nav-link dropdown-toggle fs-6 text-secondary"
               data-bs-toggle="dropdown"
               href="#"
               role="button"
@@ -23,17 +28,17 @@ const Navigation = () => {
             </a>
             <ul className="dropdown-menu">
               <li>
-                <a className="dropdown-item" href="#">
+                <a className="dropdown-item fs-6 text-secondary" href="#">
                   Action
                 </a>
               </li>
               <li>
-                <a className="dropdown-item" href="#">
+                <a className="dropdown-item fs-6 text-secondary" href="#">
                   Another action
                 </a>
               </li>
               <li>
-                <a className="dropdown-item" href="#">
+                <a className="dropdown-item fs-6 text-secondary" href="#">
                   Something else here
                 </a>
               </li>
@@ -41,20 +46,20 @@ const Navigation = () => {
                 <hr className="dropdown-divider" />
               </li>
               <li>
-                <a className="dropdown-item" href="#">
+                <a className="dropdown-item fs-6 text-secondary" href="#">
                   Separated link
                 </a>
               </li>
             </ul>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link fs-6" href="#">
               Link
             </a>
           </li>
           <li className="nav-item">
             <a
-              className="nav-link disabled"
+              className="nav-link disabled fs-6 "
               href="#"
               tabindex="-1"
               aria-disabled="true"

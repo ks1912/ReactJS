@@ -9,9 +9,11 @@ import Footer from "./Footer";
 // App Method
 const App = () => {
   return (
-    <div>
+    <div style={{ marginRight: "5%", marginLeft: "5%" }}>
       <Navigation />
+      <div style={{ marginBottom: "1%" }}></div>
       <Box />
+      <div style={{ marginBottom: "1%" }}></div>
       <Footer />
     </div>
   );

@@ -4,6 +4,7 @@ import bgOne from "../Images/backgroundImageOne.jpg";
 import bgTwo from "../Images/backgroundImageTwo.jpg";
 import bgThree from "../Images/backgroundImageThree.jpg";
 import "../Style/box.css";
+import MiddleBox from "./MiddleBox";
 
 const Box = () => {
   const headerBox = () => {
@@ -40,7 +41,7 @@ const Box = () => {
             <div className="carousel-item active">
               <img
                 src={bgOne}
-                className="img-fluid"
+                className="img-fluid rounded"
                 style={{ height: "300px", width: "100%" }}
                 alt="..."
               />
@@ -54,7 +55,7 @@ const Box = () => {
             <div className="carousel-item">
               <img
                 src={bgTwo}
-                className="img-fluid"
+                className="img-fluid rounded"
                 style={{ height: "300px", width: "100%" }}
                 alt="..."
               />
@@ -68,7 +69,7 @@ const Box = () => {
             <div className="carousel-item">
               <img
                 src={bgThree}
-                className="img-fluid"
+                className="img-fluid rounded"
                 style={{ height: "300px", width: "100%" }}
                 alt="..."
               />
@@ -110,48 +111,52 @@ const Box = () => {
   };
   const cardsContext = () => {
     return (
-      <div>
-        <div className="card-group">
-          <div className="card">
-            <img src="..." className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p>
-              <p className="card-text">
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </p>
-            </div>
+      <div className="card-group">
+        <div
+          className="card row-cols-1 row-cols-md-2 g-3"
+          style={{ marginRight: "2%" }}
+        >
+          {/* <img src={bgOne} className="card-img-top rounded" alt="..." /> */}
+          <div className="card-body">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <p className="card-text">
+              <small className="text-muted">Last updated 3 mins ago</small>
+            </p>
           </div>
-          <div className="card">
-            <img src="..." className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                This card has supporting text below as a natural lead-in to
-                additional content.
-              </p>
-              <p className="card-text">
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </p>
-            </div>
+        </div>
+        <div
+          className="card row-cols-1 row-cols-md-2 g-3"
+          style={{ marginRight: "2%" }}
+        >
+          {/* <img src={bgTwo} className="card-img-top rounded" alt="..." /> */}
+          <div className="card-body">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">
+              This card has supporting text below as a natural lead-in to
+              additional content.
+            </p>
+            <p className="card-text">
+              <small className="text-muted">Last updated 3 mins ago</small>
+            </p>
           </div>
-          <div className="card">
-            <img src="..." className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This card has even longer content
-                than the first to show that equal height action.
-              </p>
-              <p className="card-text">
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </p>
-            </div>
+        </div>
+        <div className="card row-cols-1 row-cols-md-2 g-3">
+          {/* <img src={bgThree} className="card-img-top rounded" alt="..." /> */}
+          <div className="card-body">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </p>
+            <p className="card-text">
+              <small className="text-muted">Last updated 3 mins ago</small>
+            </p>
           </div>
         </div>
       </div>
@@ -160,7 +165,9 @@ const Box = () => {
   return (
     <div>
       {headerBox()}
-      <div style={{ marginTop: "10%" }}></div>
+      <div style={{ marginTop: "3%" }}></div>
+      <MiddleBox />
+      <div style={{ marginTop: "3%" }}></div>
       {cardsContext()}
     </div>
   );

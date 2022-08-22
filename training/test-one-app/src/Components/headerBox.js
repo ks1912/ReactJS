@@ -1,5 +1,7 @@
 // Import React Files
 import React from "react";
+import ReactDOM from "react";
+
 import bgOne from "../Images/backgroundImageOne.jpg";
 import bgTwo from "../Images/backgroundImageTwo.jpg";
 import bgThree from "../Images/backgroundImageThree.jpg";
@@ -12,7 +14,7 @@ const headerBox = ({ props }) => {
         <div className="carousel-item active">
           <img
             src={bgOne}
-            className="img-fluid"
+            className="img-fluid rounded"
             style={{ height: "300px", width: "100%" }}
             alt="..."
           />
@@ -25,7 +27,7 @@ const headerBox = ({ props }) => {
         <div className="carousel-item">
           <img
             src="https://t3.ftcdn.net/jpg/04/34/10/08/360_F_434100803_wCDBPHkVXP9gIDizFYtQSLPillD9AAmw.jpg"
-            className="img-fluid"
+            className="img-fluid rounded"
             style={{ height: "300px", width: "100%" }}
             alt="..."
           />
@@ -38,7 +40,7 @@ const headerBox = ({ props }) => {
         <div className="carousel-item">
           <img
             src={bgThree}
-            className="img-fluid"
+            className="img-fluid rounded"
             style={{ height: "300px", width: "100%" }}
             alt="..."
           />
