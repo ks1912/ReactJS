@@ -24,7 +24,12 @@ const App = () => {
       </div>
     );
   };
-  return <div>{webpageContent()}</div>;
+  return (
+    <div>
+      {webpageContent()}
+      {webpageComingSoon()}
+    </div>
+  );
 };
 
 export default App;
