@@ -20,11 +20,21 @@ const navBar = () => {
               </a>
             </li>
             <li className="col-9">
-                <p className="text-center nav-link text-white m-0">KUNAL SINGH</p>
+              <p className="text-center nav-link text-white m-0">KUNAL SINGH</p>
             </li>
             <li className="nav-item float-right">
               <a className="nav-link text-white" href="#">
                 <i class="bi bi-megaphone-fill"></i>
+              </a>
+            </li>
+            <li className="nav-item float-right">
+              <a className="nav-link text-white" href="#">
+                <a
+                  href="https://www.flaticon.com/free-icons/rainbow"
+                  title="rainbow icons"
+                >
+                  <i class="bi bi-megaphone-fill"></i>
+                </a>
               </a>
             </li>
             <li className="nav-item ">
