@@ -4,27 +4,42 @@ import React from "react";
 // Import a style
 import "../Style/App.css";
 
+// Import Icons
+import info from "../Image/help.png";
+
 // Methods
 const navBar = () => {
-  const leftSideContent = () => {};
-  const rightSideContent = () => {};
   const navSection = () => {
     return (
       <div className="container-fluid">
         <div className="row">
           <ul className="nav bg-info">
-            <li className="nav-item">
+            <li className="nav-item col-2">
               <a className="nav-link text-white" aria-current="page" href="#">
-                <i class="bi bi-info-circle pe-1"></i>
+                {/* <i className="bi bi-info-circle pe-1"></i> */}
+                <img
+                  src={info}
+                  alt="infomarion icon"
+                  className="pe-1"
+                  style={{ height: "10%", width: "10%" }}
+                />
                 ABOUT ME
               </a>
             </li>
-            <li className="col-9">
+            <li className="col-8">
               <p className="text-center nav-link text-white m-0">KUNAL SINGH</p>
             </li>
             <li className="nav-item float-right">
               <a className="nav-link text-white" href="#">
-                <i class="bi bi-megaphone-fill"></i>
+                <i className="bi bi-megaphone-fill"></i>
+              </a>
+            </li>
+            <li className="nav-item float-right">
+              <a className="nav-link text-white" href="#">
+                <a
+                  href="https://www.flaticon.com/free-icons/rainbow"
+                  title="rainbow icons"
+                ></a>
               </a>
             </li>
             <li className="nav-item float-right">
@@ -39,17 +54,17 @@ const navBar = () => {
             </li>
             <li className="nav-item ">
               <a className="nav-link text-white" href="#">
-                <i class="bi bi-clock"></i>
+                <i className="bi bi-clock"></i>
               </a>
             </li>
             <li className="nav-item float-right">
               <a className="nav-link text-white" href="#">
-                <i class="bi bi-battery-full"></i>
+                <i className="bi bi-battery-full"></i>
               </a>
             </li>
             <li className="nav-item float-right">
               <a className="nav-link text-white" href="#">
-                <i class="bi bi-volume-up"></i>
+                <i className="bi bi-volume-up"></i>
               </a>
             </li>
           </ul>
