@@ -5,7 +5,7 @@ import React from "react";
 import "../Style/App.css";
 
 // Import Icons
-import info from "../Image/help.png"
+import info from "../Image/help.png";
 
 // Methods
 const navBar = () => {
@@ -17,7 +17,12 @@ const navBar = () => {
             <li className="nav-item col-2">
               <a className="nav-link text-white" aria-current="page" href="#">
                 {/* <i className="bi bi-info-circle pe-1"></i> */}
-                <img src={info} alt="infomarion icon" className="pe-1" style={{height: "10%", width: "10%"}}/>
+                <img
+                  src={info}
+                  alt="infomarion icon"
+                  className="pe-1"
+                  style={{ height: "10%", width: "10%" }}
+                />
                 ABOUT ME
               </a>
             </li>
@@ -35,6 +40,16 @@ const navBar = () => {
                   href="https://www.flaticon.com/free-icons/rainbow"
                   title="rainbow icons"
                 ></a>
+              </a>
+            </li>
+            <li className="nav-item float-right">
+              <a className="nav-link text-white" href="#">
+                <a
+                  href="https://www.flaticon.com/free-icons/rainbow"
+                  title="rainbow icons"
+                >
+                  <i class="bi bi-megaphone-fill"></i>
+                </a>
               </a>
             </li>
             <li className="nav-item ">
