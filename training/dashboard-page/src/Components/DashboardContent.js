@@ -7,7 +7,7 @@ import logo from "../Img/microsoft.png";
 // Define Functional Component
 const DashboardContent = () => {
   return (
-    <div className="col-sm-2 m-0 p-0">
+    <div>
       <div
         style={{ backgroundColor: "#23282D" }}
         className="text-white p-5 text-center"
@@ -20,10 +20,10 @@ const DashboardContent = () => {
           <img
             src={logo}
             alt="company logo"
-            style={{ height: "50px", width: "auto" }}
+            style={{ height: "20px", width: "auto" }}
             className="col"
           />
-          <span className="col pt-2 fw-bold">MICROSOF</span>
+          <span className="col ps-md-0 fw-bold">MICROSOF</span>
         </div>
         <div
           style={{ backgroundColor: "#23282D" }}
@@ -41,7 +41,7 @@ const DashboardContent = () => {
         </div>
         {/* Growth */}
         <div className="row ps-2 pe-2 pt-4 pb-4">
-          <i class="bi bi-info-circle col p-0 m-0"></i>
+          <i class="bi bi-bar-chart-line col p-0 m-0"></i>
           <div
             style={{ backgroundColor: "#23282D" }}
             className="text-white text-center col"
@@ -51,7 +51,7 @@ const DashboardContent = () => {
         </div>
         {/* Customer  */}
         <div className="row ps-2 pe-2 pt-4 pb-4">
-          <i class="bi bi-info-circle col p-0 m-0"></i>
+          <i class="bi bi-person-plus col p-0 m-0"></i>
           <div
             style={{ backgroundColor: "#23282D" }}
             className="text-white text-center col"
@@ -61,7 +61,7 @@ const DashboardContent = () => {
         </div>
         {/* Review */}
         <div className="row ps-2 pe-2 pt-4 pb-4">
-          <i class="bi bi-info-circle col p-0 m-0"></i>
+          <i class="bi bi-newspaper col p-0 m-0"></i>
           <div
             style={{ backgroundColor: "#23282D" }}
             className="text-white text-center col"
