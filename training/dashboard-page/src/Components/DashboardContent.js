@@ -10,20 +10,16 @@ const DashboardContent = () => {
     <div>
       <div
         style={{ backgroundColor: "#23282D" }}
-        className="text-white p-5 text-center"
-      ></div>
-      <div
-        style={{ backgroundColor: "#23282D" }}
-        className="text-white p-2 text-center"
+        className="text-white pt-5 ps-2 pe-2 pb-5 text-center"
       >
         <div className="row">
           <img
             src={logo}
             alt="company logo"
-            style={{ height: "20px", width: "auto" }}
+            style={{ height: "50px", width: "auto" }}
             className="col"
           />
-          <span className="col ps-md-0 fw-bold">MICROSOF</span>
+          <span className="col ps-md-0 pt-2 fw-bold">MICROSOF</span>
         </div>
         <div
           style={{ backgroundColor: "#23282D" }}
@@ -67,6 +63,19 @@ const DashboardContent = () => {
             className="text-white text-center col"
           >
             Review
+          </div>
+        </div>
+        {/* Empty Div */}
+        <div className="row ps-2 pe-2 pt-5 pb-5"></div>
+        <div className="row ps-2 pe-2 pt-1"></div>
+        {/* Logout */}
+        <div className="row ps-2 pe-2 pt-4 pb-4">
+          <i class="bi bi-box-arrow-left col p-0 m-0"></i>
+          <div
+            style={{ backgroundColor: "#23282D" }}
+            className="text-white text-center col"
+          >
+            Logout
           </div>
         </div>
       </div>

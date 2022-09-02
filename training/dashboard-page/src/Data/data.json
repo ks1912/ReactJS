@@ -1,0 +1,49 @@
+{
+  "pdata": [
+    {
+      "month": "Jan",
+      "revenue": 13,
+      "customerGain": 10
+    },
+    {
+      "month": "Feb",
+      "revenue": 15,
+      "customerGain": 12
+    },
+    {
+      "month": "Mar",
+      "revenue": 5,
+      "customerGain": 10
+    },
+    {
+      "month": "Apr",
+      "revenue": 10,
+      "customerGain": 5
+    },
+    {
+      "month": "May",
+      "revenue": 9,
+      "customerGain": 4
+    },
+    {
+      "month": "Jun",
+      "revenue": 10,
+      "customerGain": 8
+    },
+    {
+        "month": "July",
+        "revenue": 15,
+        "customerGain": 9
+      },
+      {
+        "month": "Aug",
+        "revenue": 10,
+        "customerGain": 3
+      },
+      {
+        "month": "Sep",
+        "revenue": 14,
+        "customerGain": 4
+      }
+  ]
+}
