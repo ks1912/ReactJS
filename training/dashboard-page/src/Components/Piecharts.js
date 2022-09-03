@@ -6,7 +6,16 @@ import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from "recharts";
 import pieData from "../Data/data.json";
 
 // Defining Colors
-const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"];
+const COLORS = [
+  "#003f5c",
+  "#2f4b7c",
+  "#665191",
+  "#FF8042",
+  "#d45087",
+  "#f95d6a",
+  "#ff7c43",
+  "#ffa600",
+];
 const RADIAN = Math.PI / 180;
 
 // Render Customized Lables

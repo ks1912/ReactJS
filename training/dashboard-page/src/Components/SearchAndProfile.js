@@ -4,6 +4,7 @@ import React from "react";
 // Import Components
 import GrowthYear from "./GrowthYear";
 import Barchart from "./Barchart";
+import RecentActivities from './RecentActivities';
 
 // Import images
 import profilePic from "../Img/man.png";
@@ -62,6 +63,7 @@ const SearchAndProfile = () => {
       </div>
       <GrowthYear />
       <Barchart />
+      <RecentActivities />
     </div>
   );
 };
