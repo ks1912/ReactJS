@@ -77,7 +77,7 @@ const DashboardContent = () => {
             style={{ backgroundColor: "#23282D" }}
             className="text-white text-center col"
           >
-            Logout
+            Log-out
           </div>
         </div>
       </div>
