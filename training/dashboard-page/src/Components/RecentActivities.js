@@ -1,6 +1,11 @@
 // Import React
 import React from "react";
 
+// Import packages and images
+import manOne from "../Img/manOne.png";
+import manTwo from "../Img/manTwo.png";
+import womanOne from "../Img/womanOne.png";
+
 // Create a functional component
 const RecentActivities = () => {
   return (
@@ -8,10 +13,10 @@ const RecentActivities = () => {
       {/* Resent Activities Header */}
       <div className="row">
         <div className="col-md-6">
-          <span className="fs-3 float-start pt-0 ps-0">Recent Activities</span>
+          <span className="fs-3 float-start pt-3 mt-2 pb-5 ps-0">Recent Activities</span>
         </div>
         <div className="col-md-6">
-          <div class="btn-group float-end pt-0">
+          <div class="btn-group float-end pt-3">
             <button
               type="button"
               className="btn dropdown-toggle"
@@ -43,20 +48,59 @@ const RecentActivities = () => {
       {/* Resent Activities Body */}
       <div className="row">
         <table class="table text-start table-borderless">
-            <tr>
-                <th>Customer</th>
-                <th>Status</th>
-                <th>Order Number</th>
-                <th>Retained</th>
-                <th>Amount</th>
-            </tr>
-            <tr>
-                <th>Jeny Wilsone</th>
-                <th>New Customer</th>
-                <th>#0038160</th>
-                <th>1 min ago</th>
-                <th>$123.40</th>
-            </tr>
+          <tr>
+            <th className="pb-3"></th>
+            <th className="pb-3">Customer</th>
+            <th className="pb-3">Status</th>
+            <th className="pb-3">Order Number</th>
+            <th className="pb-3">Retained</th>
+            <th className="pb-3">Amount</th>
+          </tr>
+          {/* Woman One */}
+          <tr>
+            <td>
+              <img
+                src={womanOne}
+                alt="lady image"
+                style={{ width: "40px", height: "40px" }}
+              />
+            </td>
+            <td>Jeny Wilsone</td>
+            <td>New Customer</td>
+            <td>#0038160</td>
+            <td>1 min ago</td>
+            <td>$123.40</td>
+          </tr>
+          {/* Man One */}
+          <tr>
+            <td>
+              <img
+                src={manOne}
+                alt="lady image"
+                style={{ width: "40px", height: "40px" }}
+              />
+            </td>
+            <td>Jeny Wilsone</td>
+            <td>New Customer</td>
+            <td>#0038160</td>
+            <td>1 min ago</td>
+            <td>$123.40</td>
+          </tr>
+          {/* Man Two */}
+          <tr>
+            <td>
+              <img
+                src={manTwo}
+                alt="lady image"
+                style={{ width: "40px", height: "40px" }}
+              />
+            </td>
+            <td>Jeny Wilsone</td>
+            <td>New Customer</td>
+            <td>#0038160</td>
+            <td>1 min ago</td>
+            <td>$123.40</td>
+          </tr>
         </table>
       </div>
     </div>

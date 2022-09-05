@@ -67,9 +67,11 @@ const DashboardContent = () => {
         </div>
         {/* Empty Div */}
         <div className="row ps-2 pe-2 pt-5 pb-5"></div>
-        <div className="row ps-2 pe-2 pt-1"></div>
+        <div className="row ps-2 pe-2 pt-5 pb-5"></div>
+        <div className="row ps-2 pe-2 pt-5 pb-5"></div>
+        <div className="row ps-2 pe-2 pt-4 pb-5"></div>
         {/* Logout */}
-        <div className="row ps-2 pe-2 pt-4 pb-4">
+        <div className="row ps-2 pe-2 pt-5 mt-2 pb-4">
           <i class="bi bi-box-arrow-left col p-0 m-0"></i>
           <div
             style={{ backgroundColor: "#23282D" }}
